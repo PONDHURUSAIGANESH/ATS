@@ -1,0 +1,126 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light grey background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  margin-top: 50px;
+}
+
+h1 {
+  color: #343a40; /* Dark grey text color */
+}
+
+textarea {
+  width: calc(100% - 20px); /* Full width with a bit of padding */
+  height: 150px;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ced4da; /* Light grey border */
+  border-radius: 5px;
+  resize: none; /* Disable textarea resizing */
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #28a745; /* Green button */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.result {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey background for result box */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  overflow-wrap: break-word; /* Break long words */
+  color: #333; /* Dark grey text color */
+  line-height: 1.6;
+}
+
+.result h2 {
+  font-size: 20%;
+  color: #28a745; /* Green color for step titles */
+}
+
+.result li {
+  list-style-type: square; /* Use square bullets */
+  margin-bottom: 8px; /* Add space between list items */
+}
+/* App.css */
+
+.formatted-result {
+  margin-top: 20px;
+}
+
+.result-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.result-item h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.result-item ul {
+  list-style-type: none;
+}
+
+.result-item li {
+  margin-bottom: 5px;
+}
+
+.result-item strong {
+  color: #4CAF50;
+}
+.highlight {
+  color: rgb(9, 8, 91);
+  font-weight: bold;
+  
+  /* Add more styles as needed */
+}
+.zoom-in-out-box {
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+/* Add more styles as needed */
